@@ -22,14 +22,14 @@ const [up,setup]=useState({u1:"hidden",u2:"hidden",u3:"hidden",d1:"block",d2:"bl
      <div className='w-5/6'>
 
      <div className=' sm:flex flex-row justify-center items-center  sm:items-center sm:justify-between mt-9'>
-        <div className='mb:4 sm:mb:0'>
+        <div className=' sm:mb:0'>
      <img src={logo} alt="" srcset="" />
         
 
         </div>
        
         <div>
-        <li className='flex gap-6 items-center'>
+        <li className='flex gap-6 items-center mt-8 sm:mt-0'>
             <ul>
                 Home
             </ul>
@@ -89,8 +89,8 @@ const [up,setup]=useState({u1:"hidden",u2:"hidden",u3:"hidden",d1:"block",d2:"bl
           </BrowserRouter>
      }
 
-<div className='w-[100%] p-2 justify-between flex mt-14 items-center'>
-<div className='flex w-[40%]'>
+<div className='w-[100%] p-2 sm:justify-between  sm:flex mt-14 items-center'>
+<div className='flex sm:w-[40%]'>
     <div className='rounded-full w-[80px]  h-[80px] flex justify-center items-center shadow-xl shadow-blue-200'>
     <img src={inlogo} alt="" className='w-[45px] h-[45px]'/>
     </div>
@@ -105,7 +105,7 @@ const [up,setup]=useState({u1:"hidden",u2:"hidden",u3:"hidden",d1:"block",d2:"bl
 
 </div > 
 
-<div className='flex  items-center gap-3 w-[60%] justify-end'>
+<div className='flex  items-center gap-3 sm:w-[60%] justify-end'>
     <button className='rounded-full w-[40px] h-[40px] bg-gradient-to-b from-blue-900 to-blue-500 text-xl text-white'>
    + 
     </button>
